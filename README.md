@@ -1,38 +1,28 @@
 # Diabetes-Prediction-Using-Machine-Learning
 
-🧠 Diabetes Prediction using Machine Learning
-
-This project builds a machine learning model to predict the likelihood of diabetes based on clinical health indicators such as glucose level, BMI, age, and insulin.
+This project builds a machine learning model to predict the likelihood of diabetes based on clinical health indicators such as glucose levels, BMI, age, and insulin levels.
 
 The goal is to support early risk screening and preventive healthcare decisions.
 
-📊 Problem Statement
+# Problem Statement
 
 Diabetes is a chronic disease that often goes undiagnosed until complications appear. Early identification of high-risk individuals can enable timely lifestyle changes and medical intervention.
 
 This project applies supervised machine learning to predict diabetes risk from patient health measurements.
 
-📁 Dataset
+# Dataset
 
 The dataset contains medical diagnostic variables for female patients, including:
 
-Pregnancies
-
-Glucose
-
-Blood Pressure
-
-Skin Thickness
-
-Insulin
-
-BMI
-
-Diabetes Pedigree Function
-
-Age
-
-Outcome (0 = Non-diabetic, 1 = Diabetic)
+1. Pregnancies
+2. Glucose
+3. Blood Pressure
+4. Skin Thickness
+5. Insulin
+6. BMI
+7. Diabetes Pedigree Function
+8. Age
+9. Outcome (0 = Non-diabetic, 1 = Diabetic)
 
 ⚙️ Feature Engineering
 
