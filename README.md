@@ -1,6 +1,6 @@
 # Diabetes-Prediction-Using-Machine-Learning
 
-This project builds a machine learning model to predict the likelihood of diabetes based on clinical health indicators such as glucose levels, BMI, age, and insulin levels.
+This project builds a machine learning model to predict the likelihood of diabetes based on clinical health indicators, including glucose levels, BMI, age, and insulin levels.
 
 The goal is to support early risk screening and preventive healthcare decisions.
 
@@ -24,19 +24,17 @@ The dataset contains medical diagnostic variables for female patients, including
 8. Age
 9. Outcome (0 = Non-diabetic, 1 = Diabetic)
 
-⚙️ Feature Engineering
+# Feature Engineering
 
-Additional categorical health risk features were created:
+Some categorical health risk features were created:
 
-BMI categories (Underweight, Overweight, Obesity levels)
-
-Glucose risk levels
-
-Insulin score classification
+1. BMI categories (Underweight, Overweight, Obesity levels)
+2. Glucose risk levels
+3. Insulin score classification
 
 Missing values in medical variables were imputed using class-wise medians.
 
-🤖 Model
+# Model
 
 Algorithm: XGBoost Classifier
 
@@ -48,30 +46,41 @@ Robust to feature interactions
 
 High performance on tabular medical data
 
-📈 Model Performance
+# Model Performance
 
 Metrics used:
 
-Accuracy
+1. Accuracy
+2. Precision
+3. Recall
+4. F1-score
 
-Precision
+The model demonstrates a strong ability to identify diabetic patients, making it suitable for early screening support tools.
 
-Recall
+# Feature Importance
 
-F1-score
+The most influential predictors are:
 
-The model demonstrates strong ability to identify diabetic patients, making it suitable for early-screening support tools.
-
-🔍 Feature Importance
-
-The most influential predictors include:
-
-Glucose
-
-BMI
-
-Age
-
-Insulin
+1. Glucose
+2. BMI
+3. Age
+4. Insulin
 
 These align with established medical risk factors for diabetes.
+
+# Example of My Prediction
+
+#### Input patient data:
+Pregnancies: 2  
+Glucose: 150  
+BloodPressure: 80  
+SkinThickness: 30  
+Insulin: 130  
+BMI: 33.5  
+DPF: 0.45  
+Age: 52
+
+#### Model Output:
+Prediction: Diabetic
+Risk Probability: 0.88
+
