@@ -81,14 +81,3 @@ Age: 52
 #### Model Output:
 Prediction: Diabetic
 Risk Probability: 0.88
-
-
-
-
-
-from xgboost import plot_importance
-import matplotlib.pyplot as plt
-
-plot_importance(xgb)
-plt.savefig("images/feature_importance.png")
-plt.show()
