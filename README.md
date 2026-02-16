@@ -36,15 +36,13 @@ Missing values in medical variables were imputed using class-wise medians.
 
 # Model
 
-Algorithm: XGBoost Classifier
+#### Algorithm: XGBoost Classifier
 
-Reasons for selection:
+#### Reasons for selection:
 
-Handles nonlinear relationships
-
-Robust to feature interactions
-
-High performance on tabular medical data
+i. Handles nonlinear relationships
+ii. Robust to feature interactions
+iii. High performance on tabular medical data
 
 # Model Performance
 
